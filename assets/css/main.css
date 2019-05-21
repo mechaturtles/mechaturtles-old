@@ -715,7 +715,7 @@
 
 /* Icons */
 
-	ul.icons {
+	/* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -782,8 +782,39 @@
 				font-size: 1.5rem;
 			}
 
+		} */
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+			margin-top: -0.675em;
 		}
 
+			ul.icons li {
+				display: inline-block;
+				padding: 0.675em 0.5em;
+			}
+				ul.icons li:hover:before {
+					opacity: 1.0;
+				}
+
+				ul.icons li:hover {
+					opacity: 0.8;
+				}
+
+/*Icon Tags*/
+			ul.icontags {
+				cursor: default;
+				list-style: none;
+				padding-left: 0;
+				margin-top: -3em;
+			}
+
+				ul.icontags li {
+					display: inline-block;
+					padding: 0.675em 0.5em;
+				}
 /* Button */
 
 	input[type="submit"],
