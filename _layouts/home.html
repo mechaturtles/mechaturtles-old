@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<header>
+	<h1>Hello, I'm Bryce Villanueva!</h1>
+	<p>I am a 2nd year Mechanical Engineering student at the University of Central Florida. I am a U.S. Permanent Resident working towards U.S. Citizenship. </p>
+	<a href="https://docs.google.com/document/d/1DOPXB1n2j30Obwn0VQunMqWwn5U1qfK2XL4xL1MvIPQ/edit#heading=h.p8hh9ijauuug">Please click here for my resume!</a>
+	<p>This site is still currently being developed, so I apologize for any bugs. Below are all the projects I've recently worked on!</p>
+</header>
+
+<section class="tiles">
+	{% for post in site.posts %}
+	{% assign loopindex = forloop.index | modulo: 6 | plus : 1 %}
+	<article class="style{{ loopindex }}">
+		<span class="image">
+			<img src="{{ post.img | prepend: "/images/" | prepend: site.baseurl }}" alt="" />
+		</span>
+		<a href="{{ post.url | prepend: site.baseurl }}">
+			<h2>{{ post.title }}</h2>
+			<div class="content">
+				<p>{{ post.desc }}</p>
+			</div>
+		</a>
+	</article>
+	{% endfor %}
+</section>

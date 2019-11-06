@@ -1,0 +1,22 @@
+# Site settings
+title:          MechaTurtles
+description:    ""
+baseurl:        ""
+url:            "https://mechaturtles.github.io"
+
+# Author
+author:
+  name:         Bryce Villanueva
+  url:          https://github.com/mechaturtles
+  email:        
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Permalinks
+permalink:      /data/:title/
