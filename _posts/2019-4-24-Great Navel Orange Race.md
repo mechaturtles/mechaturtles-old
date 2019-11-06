@@ -3,7 +3,7 @@ layout: post
 title: Vitamin SEA
 desc: A Great Navel Orange Race failure!
 level:
-img: /VitaminSEA/VS2.jpg
+img: /VitaminSEA/VSIcon.jpg
 tags:
 ---
 

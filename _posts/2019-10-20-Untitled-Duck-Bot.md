@@ -3,7 +3,7 @@ layout: post
 title: Untitled Duck Bot
 desc: A robot duck designed to cause mayhem.
 level:
-img: /Care++/CPP2.jpg
+img: /UntitledDuck/UDBIcon.jpg
 tags:
 ---
 ### About
