@@ -2301,9 +2301,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right, .image.center{
-			max-width: 40%;
+			max-width: 50%;
 			clear: both;
-			
 		}
 
 			.image.left img, .image.right, .image.center img {
@@ -2317,7 +2316,6 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-		
 			margin-left: 1em;
 		}
 
@@ -3318,4 +3316,13 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
+<<<<<<< Updated upstream
 		}
+=======
+		}
+	.post {
+		max-width: 50em;
+		margin: 0 auto;
+		padding: 0 2.5em;
+	}
+>>>>>>> Stashed changes
