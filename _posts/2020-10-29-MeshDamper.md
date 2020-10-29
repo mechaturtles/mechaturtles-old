@@ -3,7 +3,7 @@ layout: post
 title: Mesh Damper Research
 desc: Damping those pesky vibrations...
 level:
-img: /MeshDamper/MD1.jpeg
+img: /MeshDamper/icon.jpg
 tags:
 ---
 
